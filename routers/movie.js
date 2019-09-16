@@ -38,4 +38,5 @@ module.exports = {
             if (err) return res.status(400).json(err);
             res.json();
         });
+    }
 };
